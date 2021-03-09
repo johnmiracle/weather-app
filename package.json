@@ -1,0 +1,37 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A weather forcast app",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "nodemon --watch backend --exec  node --experimental-modules backend/server.js"
+  },
+  "keywords": [
+    "Weather",
+    "App",
+    "forcast"
+  ],
+  "author": "Miracle Anaje",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "7.0.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "nodemon": "^2.0.7",
+    "weather-js": "^2.0.0"
+  }
+}
