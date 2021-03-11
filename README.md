@@ -1,4 +1,4 @@
-#### Demo
+# Demo
 
 Netlify: https://weather-app-moa.netlify.app/
 
