@@ -46,5 +46,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Deployment
 
 This application has delpoyed on:
+
 Netlify: https://weather-app-moa.netlify.app/
+
 Heroku: https://weather-app-moa.herokuapp.com/
